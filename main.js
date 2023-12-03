@@ -1,5 +1,5 @@
 
-var imagesArray = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"];
+var imagesArray = ["Portadas/image1.jpg", "Portadas/image2.jpg", "Portadas/image3.jpg", "Portadas/image4.jpg", "Portadas/image5.jpg"];
 
 function generateImage() {
     var randomIndex = Math.floor(Math.random() * imagesArray.length);

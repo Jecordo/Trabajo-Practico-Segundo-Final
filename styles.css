@@ -13,7 +13,7 @@ h1 {
 
 .button-container {
     text-align: center;
-    grid-column: span 4; /* Ocupa las 4 columnas del contenedor principal */
+    margin-bottom: 20px; /* Agregado para dar espacio entre la lista y el botón */
 }
 
 .button {
@@ -27,21 +27,20 @@ h1 {
 
 .container {
     display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
 }
 
 .col-3 {
-    flex: 0 0 75%; /* 25% de ancho, no crece ni encoge */
-    padding: 15px;
+    flex-direction: column;
+    flex: 0 0 40%;
+    gap: 20px; /* Espacio entre las canciones */
 }
 
 .song_container {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 10px;
     border-radius: 10px;
-    grid-template-columns: repeat(4, 1fr); /* Divide el contenedor en 4 columnas iguales */
-    gap: 20px; /* Espacio entre las columnas y filas */
 }
 
 .artist_image {
@@ -57,18 +56,19 @@ h1 {
     align-items: flex-start;
 }
 
-.nombre_artista {
+.nombre_artista,
+.cancion_artista {
     display: inline-block;
-    background-color: rgb(255, 81, 0);
     padding: 10px;
     border-radius: 5px;
 }
 
+.nombre_artista {
+    background-color: rgb(255, 81, 0);
+}
+
 .cancion_artista {
-    display: inline;
     background-color: rgb(27, 136, 130);
-    padding: 10px;
-    border-radius: 5px;
 }
 
 .number-arrow-container {
@@ -85,7 +85,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px; /* Reducido el espacio entre el número y la flecha */
 }
 
 .arrow_up {
