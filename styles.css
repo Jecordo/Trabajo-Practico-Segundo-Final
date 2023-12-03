@@ -112,3 +112,8 @@ h1 {
     background-color: #ffffff; /* Color del rectángulo */
     display: inline-block;
 }
+
+.centered-image {
+    display: block;
+    margin: auto;
+  }
