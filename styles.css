@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+    background-color: rgb(78, 167, 209);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    grid-column: span 4; /* Ocupa las 4 columnas del contenedor principal */
+}
+
+.button {
+    background-color: rgb(36, 163, 93);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+.col-3 {
+    flex: 0 0 75%; /* 25% de ancho, no crece ni encoge */
+    padding: 15px;
+}
+
+.song_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    grid-template-columns: repeat(4, 1fr); /* Divide el contenedor en 4 columnas iguales */
+    gap: 20px; /* Espacio entre las columnas y filas */
+}
+
+.artist_image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.artist_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nombre_artista {
+    display: inline-block;
+    background-color: rgb(255, 81, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cancion_artista {
+    display: inline;
+    background-color: rgb(27, 136, 130);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.number-arrow-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.circle_number {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(42, 79, 179);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.arrow_up {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid #0f8a0f;
+    display: inline-block;
+}
+
+.arrow_down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid #f00606;
+    display: inline-block;
+}
+
+.arrow_simple {
+    width: 26px; /* Ancho del rectángulo */
+    height: 10px; /* Altura del rectángulo */
+    background-color: #ffffff; /* Color del rectángulo */
+    display: inline-block;
+}

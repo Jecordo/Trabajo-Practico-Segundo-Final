@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listado de Canciones</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>DISEÑO DE APLICACION WEB TOP 5</h1>
+
+  <div class="container">
+    <div class="col-3">
+
+      <div class="song_container">
+        <img src="image1.jpg" class="artist_image" />
+        <div class="number-arrow-container">
+          <div class="circle_number">1</div>
+          <span class="arrow_up"></span>
+        </div>
+        <div class="artist_info">
+          <label class="nombre_artista"><strong>Quemil Yambay</strong></label>
+          <label class="cancion_artista"><strong>Areko cuatro kuña</strong></label>
+        </div>
+      </div>
+
+      <div class="song_container">
+        <img src="image2.jpg" class="artist_image" />
+        <div class="number-arrow-container">
+          <div class="circle_number">2</div>
+          <span class="arrow_down"></span>
+        </div>
+        <div class="artist_info">
+          <label class="nombre_artista"><strong>Quemil Yambay</strong></label>
+          <label class="cancion_artista"><strong>Areko cuatro kuña</strong></label>
+        </div>
+      </div>
+
+      <div class="song_container">
+        <img src="image3.jpg" class="artist_image" />
+        <div class="number-arrow-container">
+          <div class="circle_number">3</div>
+          <span class="arrow_up"></span>
+        </div>
+        <div class="artist_info">
+          <label class="nombre_artista"><strong>Quemil Yambay</strong></label>
+          <label class="cancion_artista"><strong>Areko cuatro kuña</strong></label>
+        </div>
+      </div>
+
+      <div class="song_container">
+        <img src="image4.jpg" class="artist_image" />
+        <div class="number-arrow-container">
+          <div class="circle_number">4</div>
+          <span class="arrow_simple"></span>
+        </div>
+        <div class="artist_info">
+          <label class="nombre_artista"><strong>Quemil Yambay</strong></label>
+          <label class="cancion_artista"><strong>Areko cuatro kuña</strong></label>
+        </div>
+      </div>
+
+      <div class="song_container">
+        <img src="image5.jpg" class="artist_image" />
+        <div class="number-arrow-container">
+          <div class="circle_number">5</div>
+          <span class="arrow_down"></span>
+        </div>
+        <div class="artist_info">
+          <label class="nombre_artista"><strong>Quemil Yambay</strong></label>
+          <label class="cancion_artista"><strong>Areko cuatro kuña</strong></label>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="button-container">
+    <button id="generateButton" class="button" onclick="generateImage()">Generar Imagen</button>
+  </div>
+
+  <div id="songImage" class="song-image">
+    <img id="generatedImage" src="" alt="" />
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
