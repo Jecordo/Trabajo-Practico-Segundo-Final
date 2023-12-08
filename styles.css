@@ -1,4 +1,4 @@
-/* styles.css */
+
 body {
     background-color: rgb(78, 167, 209);
     color: white;
@@ -13,7 +13,7 @@ h1 {
 
 .button-container {
     text-align: center;
-    margin-bottom: 20px; /* Agregado para dar espacio entre la lista y el botón */
+    margin-bottom: 20px; 
 }
 
 .button {
@@ -27,13 +27,13 @@ h1 {
 
 .container {
     display: flex;
-    justify-content: center; /* Centrar el contenido horizontalmente */
+    justify-content: center; 
 }
 
 .col-3 {
     flex-direction: column;
     flex: 0 0 40%;
-    gap: 20px; /* Espacio entre las canciones */
+    gap: 20px; 
 }
 
 .song_container {
@@ -85,7 +85,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px; /* Reducido el espacio entre el número y la flecha */
+    margin-bottom: 10px;
 }
 
 .arrow_up {
@@ -107,9 +107,9 @@ h1 {
 }
 
 .arrow_simple {
-    width: 26px; /* Ancho del rectángulo */
-    height: 10px; /* Altura del rectángulo */
-    background-color: #ffffff; /* Color del rectángulo */
+    width: 26px; 
+    height: 10px; 
+    background-color: #ffffff; 
     display: inline-block;
 }
 
